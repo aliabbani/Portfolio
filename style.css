@@ -106,4 +106,31 @@
   font-size: 32px;
   line-height: 44px;
   color: #172B4D;
+  /* Inside Auto Layout
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;  */
+}
+
+.middle-list{
+  display:inline;
+  float:left;
+}
+.middle-list li {
+  display: inline;
+}
+
+.middle-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #344563;
+  /* Inside Auto Layout
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;  */
 }
