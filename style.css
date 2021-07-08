@@ -1,71 +1,79 @@
 .personal-information {
   background-image: url(images/Headerbg@2x.png);
-  background-position: 1200px ;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 .logo-placeholder {
-  font-family: 'Poppins', sans-serif;  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: left;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .hamburger-icon {
-  border: 2px solid #ACB7C3;
   text-align: right;
-  color: #6070FF;
+  color: #6070ff;
+  float: right;
+  position: relative;
+  top: -50px;
+  right: 35px;
+}
+
+.header {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
 .name {
-    font-family: 'Poppins', sans-serif;
-      font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
   font-style: normal;
   font-weight: bolder;
   line-height: 52px;
-  letter-spacing: 0em;
-  text-align: left;  
-  color: #172B4D;
-  /** display: flex;
-  align-items: center; **/
+  text-align: left;
+  color: #172b4d;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25%;
 }
 
 .description {
-    font-family: 'Poppins', sans-serif;  font-size: 16px;
+  font-family: 'Poppins', sans-serif;  
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #344563;
-  /**flex: none;
-order: 1;
-flex-grow: 0;
-margin: 12px 0px **/
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .connect {
-    font-family: 'Poppins', sans-serif;  font-size: 16px;
+  font-family: 'Poppins', sans-serif;  font-size: 16px;
   font-style: normal;
   font-weight: bolder;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #7F8CFF;
-  /** flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 8px;**/
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .icons-list {
   color: #505F79;
   list-style-type: none;
+  margin-top: 5%;
 }
 
 .icons-list li {
-    display: inline;
-    margin-right: 15px;
+  display: inline;
+  margin-right: 5%;
 }
