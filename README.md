@@ -4,7 +4,7 @@ Project: Sneak peek: your portfolio.
 This Project is a clone of the figma template 1 (https://figma.com/)
 A responsive design
  
-![Screenshot](images/screenshot.PNG)
+![screenshot](https://user-images.githubusercontent.com/60292761/124898984-59630380-dfe8-11eb-83e9-7fdc3b138d38.PNG)
  
  
 ## Built With
