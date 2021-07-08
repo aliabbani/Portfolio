@@ -5,6 +5,7 @@ This Project is a clone of the figma template 1 (https://figma.com/)
 A responsive design
  
 ![](images/screenshotreadme.png)
+![Screenshot](screenshot.PNG)
  
  
 ## Built With
