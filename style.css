@@ -1,7 +1,7 @@
 .personal-information {
   background-image: url(images/Headerbg@2x.png);
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: right;
 }
 
 .logo-placeholder {
@@ -39,7 +39,7 @@
   color: #172b4d;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 25%;
+  padding-top: 25%;
 }
 
 .description {
@@ -71,9 +71,12 @@
   color: #505f79;
   list-style-type: none;
   margin-top: 5%;
+  margin-left: -5%;
+
 }
 
 .icons-list li {
-  display: inline;
+  display: inline-block;
   margin-right: 5%;
+
 }
