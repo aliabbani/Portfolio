@@ -1,7 +1,8 @@
-body{
-  background-color: #E5E5E5;
+body {
+  background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
 }
+
 .personal-information {
   background-color: white;
   background-image: url(images/Headerbg@2x.png);
@@ -79,9 +80,9 @@ body{
   display: inline-block;
   margin-right: 5%;
 }
+
 /** here we start the second milestone **/
 .grid-container {
-  font-size: ;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -93,7 +94,7 @@ body{
 .middle {
   display: flex;
   flex-flow: column;
-  background-color: #FFFFFF;
+  background-color: #fff;
   border-radius: 1rem;
 }
 
@@ -108,8 +109,9 @@ body{
   font-weight: bolder;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-left: 8%;
+
   /* Inside Auto Layout
   flex: none;
   order: 0;
@@ -124,6 +126,7 @@ body{
   line-height: 160%;
   color: #344563;
   margin-left: 8%;
+
   /* Inside Auto Layout
   flex: none;
   order: 1;
@@ -140,25 +143,28 @@ body{
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #FFFFFF;
-  color: #396DF2;
-  border-color: #396DF2;
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
   border-radius: 0.5rem;
   width: 125px;
   height: 40px;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 8%;
-  /* Inside Auto Layout 
+
+  /* Inside Auto Layout
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 10px; */
 }
 
-.html-button ,.css-button ,.js-button {
-  color: #6070FF;
-  background: #EBEBFF;
+.html-button,
+.css-button,
+.js-button {
+  color: #6070ff;
+  background: #ebebff;
   border-radius: 0.5rem;
   border: none;
   display: flex;
@@ -168,7 +174,8 @@ body{
   position: static;
   height: 24px;
   margin-right: 5%;
-/* Inside Auto Layout 
+
+  /* Inside Auto Layout
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -214,8 +221,9 @@ margin: 0px 8px; */
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
-/* Inside Auto Layout
+  color: #344563
+
+  /* Inside Auto Layout
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -227,10 +235,37 @@ margin: 0px 0px;  */
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
-/* Inside Auto Layout
+  color: #7a869a;
+
+  /* Inside Auto Layout
 flex: none;
 order: 0;
 flex-grow: 0;
 margin: 0px 0px;  */
+}
+
+.personal-information-2 {
+  background-color: white;
+  margin-top: 125%;
+  border-top-right-radius: 40%;
+}
+
+.button-resume {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 141%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
+  border-radius: 0.5rem;
+  width: 155px;
+  height: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
