@@ -1,11 +1,15 @@
+body{
+  background-color: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+}
 .personal-information {
+  background-color: white;
   background-image: url(images/Headerbg@2x.png);
   background-attachment: fixed;
   background-position: right;
 }
 
 .logo-placeholder {
-  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: bolder;
@@ -30,7 +34,6 @@
 }
 
 .name {
-  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: bolder;
@@ -43,7 +46,6 @@
 }
 
 .description {
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +57,6 @@
 }
 
 .connect {
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: bolder;
@@ -80,32 +81,35 @@
 }
 /** here we start the second milestone **/
 .grid-container {
-  font-family: ;
   font-size: ;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 5%;
+  margin-top: 25%;
+  margin-bottom: 25%;
 }
 
 .middle {
   display: flex;
   flex-flow: column;
   background-color: #FFFFFF;
+  border-radius: 1rem;
 }
 
 .middle-images {
   order: -1;
   align-self: center;
+  margin-top: 5%;
 }
 
 .middle-h1 {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bolder;
   font-size: 32px;
   line-height: 44px;
   color: #172B4D;
+  margin-left: 8%;
   /* Inside Auto Layout
   flex: none;
   order: 0;
@@ -113,21 +117,13 @@
   margin: 12px 0px;  */
 }
 
-.middle-list{
-  display:inline;
-  float:left;
-}
-.middle-list li {
-  display: inline;
-}
-
 .middle-paragraph {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 160%;
   color: #344563;
+  margin-left: 8%;
   /* Inside Auto Layout
   flex: none;
   order: 1;
@@ -136,7 +132,6 @@
 }
 
 .button-see-project {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -152,9 +147,90 @@
   width: 125px;
   height: 40px;
   margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 8%;
   /* Inside Auto Layout 
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 10px; */
+}
+
+.html-button ,.css-button ,.js-button {
+  color: #6070FF;
+  background: #EBEBFF;
+  border-radius: 0.5rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  position: static;
+  height: 24px;
+  margin-right: 5%;
+/* Inside Auto Layout 
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px; */
+}
+
+.html-button {
+  width: 53px;
+}
+
+.css-button {
+  width: 45px;
+}
+
+.js-button {
+  width: 89px;
+}
+
+.middle-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8%;
+}
+
+.canopy {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 8%;
+}
+
+.canopy img {
+  width: 10px;
+  height: 10px;
+  margin-right: 3%;
+}
+
+.canopy-1 {
+  margin-right: 3%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+/* Inside Auto Layout
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;  */
+}
+
+.canopy-2 {
+  margin-right: 3%;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+/* Inside Auto Layout
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;  */
 }
