@@ -247,7 +247,7 @@ margin: 0px 0px;  */
 .personal-information-2 {
   background-color: white;
   margin-top: 125%;
-  border-top-right-radius: 40%;
+  border-top-right-radius: 20%;
 }
 
 .button-resume {
@@ -273,6 +273,7 @@ margin: 0px 0px;  */
 .langguages {
   display: flex;
   align-items: center;
+  margin-left: 8%;
 }
 
 .langguages > h1 {
@@ -293,15 +294,37 @@ margin: 0px 0px;  */
   margin-right: 50%;
 }
 
+.x {
+  margin-bottom: 30%;
+}
+
+.langguages-border {
+  border-bottom: 1px solid #DFE1E6;
+}
+
 .grid-container-2 {
   display: grid;
+  grid-gap: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  margin-right:8%;
   /* grid-template-columns: 3fr 1fr
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 5%;
   margin-top: 25%;
   margin-bottom: 25%; */
 }
 
+.langguage-box {
+  background: #F7F7F9;
+  border-radius: 8px;
+}
+
 .flex {
   display: flex;
+}
+
+.langguage-box > img{
+  margin-right: 10%;
+  margin-left: 5%;
 }
