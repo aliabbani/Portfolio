@@ -269,3 +269,39 @@ margin: 0px 0px;  */
   margin-bottom: 5%;
   margin-left: 5%;
 }
+
+.langguages {
+  display: flex;
+  align-items: center;
+}
+
+.langguages > h1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-right: 30%;
+}
+
+.langguages > i {
+  color: #ACB7C3;
+}
+
+.langguages-2 > h1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-right: 50%;
+}
+
+.grid-container-2 {
+  display: grid;
+  /* grid-template-columns: 3fr 1fr
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5%;
+  margin-top: 25%;
+  margin-bottom: 25%; */
+}
+
+.flex {
+  display: flex;
+}
