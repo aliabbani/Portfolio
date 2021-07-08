@@ -78,3 +78,32 @@
   display: inline-block;
   margin-right: 5%;
 }
+/** here we start the second milestone **/
+.grid-container {
+  font-family: ;
+  font-size: ;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5%;
+}
+
+.middle {
+  display: flex;
+  flex-flow: column;
+  background-color: #FFFFFF;
+}
+
+.middle-images {
+  order: -1;
+  align-self: center;
+}
+
+.middle-h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
