@@ -134,3 +134,27 @@
   flex-grow: 0;
   margin: 12px 0px;  */
 }
+
+.button-see-project {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 141%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #FFFFFF;
+  color: #396DF2;
+  border-color: #396DF2;
+  border-radius: 11%;
+  width: 125px;
+  height: 40px;
+  margin-top: 5%;
+  /* Inside Auto Layout 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px; */
+}
