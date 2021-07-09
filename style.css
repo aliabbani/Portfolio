@@ -185,26 +185,21 @@ body {
   justify-content: flex-start;
   flex-direction: row;
   align-items: baseline;
-  margin-left: 8%;
-}
-
-.canopy img {
-  width: 10px;
-  height: 10px;
-  margin-right: 3%;
+  margin-left: -2%;
 }
 
 .canopy-1 {
-  margin-right: 3%;
+  margin-right: 8%;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  list-style: none;
 }
 
 .canopy-2 {
-  margin-right: 3%;
+  margin-right: 8%;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -237,17 +232,20 @@ body {
   margin-left: 5%;
 }
 
+.langguages-section {
+  margin-left: -1rem;
+}
+
 .langguages {
   display: flex;
   align-items: center;
-  margin-left: 8%;
 }
 
 .langguages > h1 {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-right: 30%;
+  margin-right: 7rem;
 }
 
 .langguages > i {
@@ -258,7 +256,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-right: 50%;
+  margin-right: 11.65rem;
 }
 
 .x {
@@ -271,16 +269,13 @@ body {
 
 .grid-container-2 {
   display: grid;
-  grid-gap: 5%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 8%;
-  margin-right: 8%;
+  grid-gap: 1rem;
+  margin: 2rem 3rem 2rem 0;
 }
 
 .langguage-box {
   background: #f7f7f9;
-  border-radius: 8px;
+  border-radius: 0.7rem;
 }
 
 .flex {
@@ -288,6 +283,5 @@ body {
 }
 
 .langguage-box > img {
-  margin-right: 10%;
-  margin-left: 5%;
+  margin: 0.5rem 1rem 0.5rem 0.5rem;
 }
