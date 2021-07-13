@@ -285,3 +285,74 @@ body {
 .langguage-box > img {
   margin: 0.5rem 1rem 0.5rem 0.5rem;
 }
+
+.grid-container-3 {
+  background-color: #6070ff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  padding: 0 24px;
+  border-top-left-radius: 4rem;
+}
+
+.grid-container-3 h2 {
+  margin-top: 103px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.grid-container-3 p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.grid-container-3 form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+  padding-right: 20px;
+}
+
+.grid-container-3 form label {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.grid-container-3 form label input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 1rem;
+}
+
+.grid-container-3 form label textarea {
+  width: 100%;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.grid-container-3 form label button {
+  width: 140px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  color: #6070ff;
+}
+
+footer {
+  background-color: white;
+}
