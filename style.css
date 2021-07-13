@@ -285,3 +285,19 @@ body {
 .langguage-box > img {
   margin: 0.5rem 1rem 0.5rem 0.5rem;
 }
+
+.grid-container-3 {
+  background-color: #6070FF;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.grid-container-3 h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
