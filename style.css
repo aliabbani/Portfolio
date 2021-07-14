@@ -37,6 +37,10 @@ body {
   margin-bottom: -10%;
 }
 
+.header-list {
+  display: none;
+}
+
 .name {
   font-size: 40px;
   font-style: normal;
@@ -356,45 +360,119 @@ body {
 
 footer {
   background-color: white;
-}
-/* Desktop Version */
+}/* Desktop Version */
+
 @media screen and (min-width: 600px) {
   .hamburger-icon {
     display: none;
   }
+
   .header {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    margin-top: 0px;
+    padding-top: 0px;
   }
-  .logo-placeholder{
-    margin-left:155px;
+
+  .logo-placeholder {
+    margin-left: 155px;
   }
+
   .header-list {
     list-style: none;
     color: #344563;
     display: flex;
     margin-right: 155px;
   }
+
   .header-list li {
     margin-right: 32px;
     font-weight: bolder;
     font-size: 15px;
     line-height: 133%;
   }
+
   .name,
   .description,
   .connect,
   .icons-section-1 {
     margin-left: 359px;
   }
-  .description{
+
+  .description {
     margin-right: 359px;
   }
+
   .icons-section-1 {
     padding-bottom: 255px;
   }
 
-all the box 1440w*916h
-hei 845 916
-p 359 260 435 260
+  /* all the box 1440w*916h
+  hei 845 916
+  p 359 260 435 260 */
+  .middle {
+    margin-left: 142px;
+    margin-right:142px;
+    width: 1156px;
+    height: 496px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    border :1px solid goldenrod;
+  }
+  .middle-images {
+    order: -1;
+    align-self:flex-start;
+    margin: 24px;
+    width: 544px;
+    height: 448px;
+  }
+
+  .middle-images2-4{
+    order:9;
+  }
+
+  .multi-post-stories {
+    padding-left: px;
+  }
+  .middle-h1,
+  .canopy-1,
+  .canopy-2,
+  .middle-paragraph,
+  .middle-button,
+  .button-see-project {
+    align-self: flex-start;
+    margin-left: 46px;
+  }
+  .middle-h1 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+  .canopy {
+    margin-left: -35px;
+    margin-top:0px;
+  }
+
+  .middle-paragraph {
+    line-height: 150%;
+    margin-left: 46px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: relative;
+    width: 496px;
+    
+  }
+  .middle-button {
+    margin-left: 0px;
+  }
+  
+  .button-see-project {
+  margin-top: 20px;
+  }
+  
+  
+  /* 142px left 142px right with the whole page
+  1156w*496h
+  image margin 24px
 }
