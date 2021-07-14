@@ -327,6 +327,7 @@ body {
 .grid-container-3 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-bottom: 45px;
   padding-right: 20px;
 }
@@ -387,8 +388,8 @@ footer {
   .background-header {
     border: 1px solid transparent;
     margin-top: -9px;
-    margin-left: -9px;
-    margin-right: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 
   .logo-placeholder {
@@ -411,17 +412,17 @@ footer {
 
   .name,
   .description,
-  .connect,
+  .connect {
+    margin-left: 18.697916vw;
+  }
+
   .icons-section-1 {
-    margin-left: 359px;
+    margin-left: 19.697916vw;
+    padding-bottom: 13.28125vh;
   }
 
   .description {
-    margin-right: 359px;
-  }
-
-  .icons-section-1 {
-    padding-bottom: 255px;
+    margin-right: 18.697916vw;
   }
 
   /* all the box 1440w*916h
@@ -434,7 +435,6 @@ footer {
     height: 496px;
     flex-wrap: wrap;
     align-items: stretch;
-    border: 1px solid goldenrod;
   }
 
   .middle-images {
@@ -467,39 +467,37 @@ footer {
 
   .canopy {
     margin-left: -35px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .middle-paragraph {
     line-height: 150%;
     margin-left: 46px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-right: 0;
+    margin-top: 0;
     width: 496px;
   }
 
   .middle-button {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .button-see-project {
     margin-top: 20px;
   }
-  /* 142px left 142px right with the whole page
-  1156w*496h
-  image margin 24px */
+
+  /* personal information and langguage section */
   .personal-information-2 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 142px;
+    padding-left: 8.875rem;
   }
 
   .name-2 {
-    border: 1px solid goldenrod;
     width: 447px;
     height: 114px;
-    padding-top: 0px;
-    padding-left: 0px;
+    padding-top: 0;
+    padding-left: 0;
     margin-top: 140px;
     align-self: flex-start;
   }
@@ -512,7 +510,7 @@ footer {
 
   .connect-2 {
     padding-top: 12px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .icons-list-2 {
@@ -537,7 +535,7 @@ footer {
   }
 
   .langguages-border {
-    border-bottom: 1px solid #DFE1E6;
+    border-bottom: 1px solid #dfe1e6;
   }
 
   .langguages i {
@@ -572,10 +570,12 @@ footer {
   .langguage-box > h3 {
     padding-left: 1rem;
   }
-  /*form section */
+
+  /* form section */
   .grid-container-3 {
     grid-gap: 1rem;
-    padding: 0 25em;
+    padding-left: 25vw;
+    padding-right: 25vw;
   }
 
   .grid-container-3 form label input,
@@ -584,6 +584,6 @@ footer {
   }
 
   .grid-container-3 form label button {
-    margin-left: 15em;
+    margin-left: 18vw;
   }
 }
