@@ -493,6 +493,7 @@ footer {
     flex-wrap: wrap;
     padding-left: 142px;
   }
+
   .name-2 {
     border: 1px solid goldenrod;
     width: 447px;
@@ -502,6 +503,7 @@ footer {
     margin-top: 140px;
     align-self: flex-start;
   }
+
   .description-2 {
     align-self: flex-start;
     width: 447px;
@@ -516,26 +518,32 @@ footer {
   .icons-list-2 {
     padding-left: 45px;
   }
+
   .icons-list-2 li {
     margin-right: 2%;
   }
-  
+
   .langguages-section {
     padding-left: 70px;
     padding-top: 8em;
   }
-  
+
   .langguages {
-    border: 1px solid goldenrod;
     width: 30.125em;
   }
+
+  .langguages h1 {
+    color: #344563;
+  }
+
+  .langguages-border {
+    border-bottom: 1px solid #DFE1E6;
+  }
+
   .langguages i {
     padding-left: 11.25em;
   }
-  /*.langguages > h1 {
-    margin-top: 116px;
-    width: 30.125em;
-    height: 1.5em */
+
   .grid-container-2 {
     margin: 2rem 3rem 2rem 0;
     grid-template-columns: 1fr 1fr 1fr;
@@ -547,14 +555,21 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     align-content: space-between;
-    
   }
+
   .langguage-box {
+    display: flex;
+    align-content: space-between;
     flex-wrap: wrap;
     width: 122px;
     height: 120px;
   }
-  .testt{
-    align-self: flex-end;
+
+  .langguage-box > img {
+    margin: 0.5rem 2rem 0.5rem 0.5rem;
+  }
+
+  .langguage-box > h3 {
+    padding-left: 1rem;
   }
 }
