@@ -93,9 +93,9 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 5%;
-  margin-top: 25%;
-  margin-bottom: 25%;
+  grid-gap: 88px;
+  margin-top: 114px;
+  margin-bottom: 114px;
 }
 
 .middle {
@@ -213,8 +213,8 @@ body {
 
 .personal-information-2 {
   background-color: white;
-  margin-top: 125%;
   border-top-right-radius: 10%;
+  padding-bottom: 110px;
 }
 
 .button-resume {
@@ -371,8 +371,18 @@ footer {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    margin-top: 0px;
-    padding-top: 0px;
+    width: 100%;
+  }
+
+  .personal-information {
+    border-bottom-left-radius: 5rem;
+  }
+
+  .background-header {
+    border: 1px solid transparent;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -8px;
   }
 
   .logo-placeholder {
@@ -413,28 +423,26 @@ footer {
   p 359 260 435 260 */
   .middle {
     margin-left: 142px;
-    margin-right:142px;
+    margin-right: 142px;
     width: 1156px;
     height: 496px;
     flex-wrap: wrap;
     align-items: stretch;
-    border :1px solid goldenrod;
+    border: 1px solid goldenrod;
   }
+
   .middle-images {
     order: -1;
-    align-self:flex-start;
+    align-self: flex-start;
     margin: 24px;
     width: 544px;
     height: 448px;
   }
 
-  .middle-images2-4{
-    order:9;
+  .middle-images2-4 {
+    order: 9;
   }
 
-  .multi-post-stories {
-    padding-left: px;
-  }
   .middle-h1,
   .canopy-1,
   .canopy-2,
@@ -444,14 +452,16 @@ footer {
     align-self: flex-start;
     margin-left: 46px;
   }
+
   .middle-h1 {
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
   }
+
   .canopy {
     margin-left: -35px;
-    margin-top:0px;
+    margin-top: 0px;
   }
 
   .middle-paragraph {
@@ -459,20 +469,18 @@ footer {
     margin-left: 46px;
     margin-right: 0px;
     margin-top: 0px;
-    position: relative;
     width: 496px;
-    
   }
+
   .middle-button {
     margin-left: 0px;
   }
-  
+
   .button-see-project {
-  margin-top: 20px;
+    margin-top: 20px;
   }
-  
-  
+
   /* 142px left 142px right with the whole page
   1156w*496h
-  image margin 24px
+  image margin 24px */
 }
