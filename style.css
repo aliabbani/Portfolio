@@ -41,7 +41,8 @@ body {
   display: none;
 }
 
-.name {
+.name,
+.name-2 {
   font-size: 40px;
   font-style: normal;
   font-weight: bolder;
@@ -53,7 +54,8 @@ body {
   padding-top: 25%;
 }
 
-.description {
+.description,
+.description-2 {
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +66,8 @@ body {
   margin-right: 5%;
 }
 
-.connect {
+.connect,
+.connect-2 {
   font-size: 1em;
   font-style: normal;
   font-weight: bolder;
@@ -76,14 +79,16 @@ body {
   margin-right: 5%;
 }
 
-.icons-list {
+.icons-list,
+.icons-list-2 {
   color: #505f79;
   list-style-type: none;
   margin-top: 5%;
   margin-left: -5%;
 }
 
-.icons-list li {
+.icons-list li,
+.icons-list-2 li {
   display: inline-block;
   margin-right: 5%;
 }
@@ -217,7 +222,8 @@ body {
   padding-bottom: 110px;
 }
 
-.button-resume {
+.button-resume,
+.button-resume-2 {
   font-style: normal;
   font-weight: bold;
   font-size: 1.0625em;
@@ -362,7 +368,7 @@ footer {
   background-color: white;
 }/* Desktop Version */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
   .hamburger-icon {
     display: none;
   }
@@ -479,8 +485,56 @@ footer {
   .button-see-project {
     margin-top: 20px;
   }
-
   /* 142px left 142px right with the whole page
   1156w*496h
   image margin 24px */
+  .personal-information-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 142px;
+  }
+  .name-2 {
+    border: 1px solid goldenrod;
+    width: 447px;
+    height: 114px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 140px;
+    align-self: flex-start;
+  }
+  .description-2 {
+    align-self: flex-start;
+    width: 447px;
+    height: 102px;
+  }
+
+  .connect-2 {
+    padding-top: 12px;
+    padding-bottom: 0px;
+  }
+
+  .icons-list-2 {
+    padding-left: 45px;
+  }
+  .icons-list-2 li {
+    margin-right: 2%;
+  }
+  
+  .langguages-section {
+    padding-left: 70px;
+    padding-top: 8em;
+  }
+  
+  .langguages {
+    border: 1px solid goldenrod;
+    width: 30.125em;
+  }
+  .langguages i {
+    padding-left: 11.25em;
+  }
+  /*.langguages > h1 {
+    margin-top: 116px;
+    width: 30.125em;
+    height: 1.5em */
+  }
 }
