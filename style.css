@@ -536,5 +536,25 @@ footer {
     margin-top: 116px;
     width: 30.125em;
     height: 1.5em */
+  .grid-container-2 {
+    margin: 2rem 3rem 2rem 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    
+  }
+  .langguage-box {
+    flex-wrap: wrap;
+    width: 122px;
+    height: 120px;
+  }
+  .testt{
+    align-self: flex-end;
   }
 }
