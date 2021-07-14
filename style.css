@@ -338,7 +338,7 @@ body {
 
 .grid-container-3 form label input {
   width: 100%;
-  height: 48px;
+  height: 3em;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
@@ -347,7 +347,7 @@ body {
 
 .grid-container-3 form label textarea {
   width: 100%;
-  height: 170px;
+  height: 10.6em;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
@@ -356,8 +356,8 @@ body {
 }
 
 .grid-container-3 form label button {
-  width: 140px;
-  height: 48px;
+  width: 8.75em;
+  height: 3em;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
@@ -571,5 +571,19 @@ footer {
 
   .langguage-box > h3 {
     padding-left: 1rem;
+  }
+  /*form section */
+  .grid-container-3 {
+    grid-gap: 1rem;
+    padding: 0 25em;
+  }
+
+  .grid-container-3 form label input,
+  .grid-container-3 form label textarea {
+    border-radius: 1px;
+  }
+
+  .grid-container-3 form label button {
+    margin-left: 15em;
   }
 }
