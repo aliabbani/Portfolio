@@ -219,7 +219,7 @@ body {
 .personal-information-2 {
   background-color: white;
   border-top-right-radius: 10%;
-  padding-bottom: 110px;
+  padding-bottom: 5.72916vh;
 }
 
 .button-resume,
@@ -369,7 +369,7 @@ footer {
   background-color: white;
 }/* Desktop Version */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 850px) {
   .hamburger-icon {
     display: none;
   }
@@ -389,7 +389,7 @@ footer {
     border: 1px solid transparent;
     margin-top: -9px;
     margin-left: -10px;
-    margin-right: -10px;
+    margin-right: -9px;
   }
 
   .logo-placeholder {
@@ -418,12 +418,13 @@ footer {
 
   .icons-section-1 {
     margin-left: 19.697916vw;
-    padding-bottom: 13.28125vh;
   }
 
   .description {
     margin-right: 18.697916vw;
   }
+
+
 
   /* all the box 1440w*916h
   hei 845 916
@@ -490,31 +491,43 @@ footer {
   .personal-information-2 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 8.875rem;
+    padding-left: 0.0001vw;
+  }
+
+  .test-o {
+    width: 90%;
+    height: 117.84vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
   }
 
   .name-2 {
-    width: 447px;
+    width: 32.7233vw;
     height: 114px;
     padding-top: 0;
     padding-left: 0;
-    margin-top: 140px;
+    margin-top: 22.4vh;
     align-self: flex-start;
+    
   }
 
   .description-2 {
     align-self: flex-start;
-    width: 447px;
-    height: 102px;
+    width: 32.7233vw;
+    height: auto;
   }
 
   .connect-2 {
-    padding-top: 12px;
+    width: 100%;
+    height: 3.84vh;
+    padding-top: 1vh;
     padding-bottom: 0;
   }
 
   .icons-list-2 {
-    padding-left: 45px;
+    padding-left: 0;
+    margin-left: 5%;
   }
 
   .icons-list-2 li {
@@ -522,12 +535,14 @@ footer {
   }
 
   .langguages-section {
-    padding-left: 70px;
-    padding-top: 8em;
+    padding-left: 5.64583vw;
+    margin-top: 22.4vh;
+    margin-left: 2vw;
+    height: auto;
   }
 
   .langguages {
-    width: 30.125em;
+    width: 42.6vw;
   }
 
   .langguages h1 {
@@ -539,28 +554,21 @@ footer {
   }
 
   .langguages i {
-    padding-left: 11.25em;
+    padding-left: 15.2vw;
   }
 
   .grid-container-2 {
-    margin: 2rem 3rem 2rem 0;
+    margin: 5.12vh 3.5139vw 5.12vh 0;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-  }
-
-  .flex {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: space-between;
   }
 
   .langguage-box {
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
-    width: 122px;
-    height: 120px;
+    width: 8.93vw;
+    height: 19.2vh;
   }
 
   .langguage-box > img {
@@ -568,7 +576,8 @@ footer {
   }
 
   .langguage-box > h3 {
-    padding-left: 1rem;
+    font-size: 1.098vw;
+    padding-left: 1.1713vw;
   }
 
   /* form section */
