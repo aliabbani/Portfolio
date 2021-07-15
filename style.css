@@ -8,6 +8,8 @@ body {
   background-image: url(images/Headerbg@2x.png);
   background-attachment: fixed;
   background-position: right;
+  padding-bottom: 8vh;
+
 }
 
 .logo-placeholder {
