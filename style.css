@@ -430,7 +430,6 @@ footer {
     height: 496px;
     margin: 0 auto;
     flex-wrap: wrap;
-    border: 1px solid red;
   }
 
   .middle-images {
@@ -480,7 +479,6 @@ footer {
     font-size: 1.1713vw;
     margin-left: 3.367vw;
     width: 26.3103953147877vw;
-    border: 1px solid red;
   }
 
   .middle-button {
