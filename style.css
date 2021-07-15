@@ -383,6 +383,8 @@ footer {
 
   .personal-information {
     border-bottom-left-radius: 5rem;
+    padding-bottom: 8vh;
+    margin-top: -8vh;
   }
 
   .background-header {
