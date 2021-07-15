@@ -429,7 +429,7 @@ footer {
   /* middle section */
   .middle {
     width: 80%;
-    height: 496px;
+    max-height: 496px;
     margin: 0 auto;
     flex-wrap: wrap;
   }
