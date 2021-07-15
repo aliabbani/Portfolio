@@ -424,29 +424,27 @@ footer {
     margin-right: 18.697916vw;
   }
 
-
-
-  /* all the box 1440w*916h
-  hei 845 916
-  p 359 260 435 260 */
+  /* middle section */
   .middle {
-    margin-left: 142px;
-    margin-right: 142px;
-    width: 1156px;
+    width: 80%;
     height: 496px;
+    margin: 0 auto;
     flex-wrap: wrap;
-    align-items: stretch;
+    border: 1px solid red;
   }
 
   .middle-images {
     order: -1;
     align-self: flex-start;
-    margin: 24px;
-    width: 544px;
-    height: 448px;
+    margin: 1.5rem;
+    width: 39.8243vw;
+    height: 71.68vh;
   }
 
   .middle-images2-4 {
+    margin: 3.84vh 0;
+    width: 39.8243vw;
+    height: 71.68vh;
     order: 9;
   }
 
@@ -457,34 +455,61 @@ footer {
   .middle-button,
   .button-see-project {
     align-self: flex-start;
-    margin-left: 46px;
+    margin-left: 3.3675vw;
   }
 
   .middle-h1 {
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 2.9282vw;
+    line-height: 8.32vh;
     color: #172b4d;
   }
 
   .canopy {
-    margin-left: -35px;
+    margin-left: -2.562225475841874vw;
     margin-top: 0;
   }
 
+  .canopy-1,
+  .canopy-2 {
+    margin-right: 2vw;
+    font-size: 0.9516vw;
+    line-height: 2.56vh;
+  }
+
   .middle-paragraph {
-    line-height: 150%;
-    margin-left: 46px;
-    margin-right: 0;
-    margin-top: 0;
-    width: 496px;
+    font-size: 1.1713vw;
+    margin-left: 3.367vw;
+    width: 26.3103953147877vw;
+    border: 1px solid red;
   }
 
   .middle-button {
     margin-left: 0;
   }
 
+  .html-button,
+  .css-button,
+  .js-button {
+    padding: 0.64vh 0.8784vw;
+    height: 1.5em;
+    margin-right: 1.1713vw;
+    font-size: 1.18784vw;
+  }
+
+  .html-button {
+    width: 3.88vw;
+  }
+
+  .css-button {
+    width: 3.3vw;
+  }
+
+  .js-button {
+    width: 6.5153vw;
+  }
+
   .button-see-project {
-    margin-top: 20px;
+    margin-top: 3.2vh;
   }
 
   /* personal information and langguage section */
@@ -509,7 +534,6 @@ footer {
     padding-left: 0;
     margin-top: 22.4vh;
     align-self: flex-start;
-    
   }
 
   .description-2 {
