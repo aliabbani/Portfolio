@@ -8,6 +8,7 @@ body {
   background-image: url(images/Headerbg@2x.png);
   background-attachment: fixed;
   background-position: right;
+  padding-bottom: 8vh;
 }
 
 .logo-placeholder {
@@ -37,7 +38,12 @@ body {
   margin-bottom: -10%;
 }
 
-.name {
+.header-list {
+  display: none;
+}
+
+.name,
+.name-2 {
   font-size: 40px;
   font-style: normal;
   font-weight: bolder;
@@ -49,22 +55,24 @@ body {
   padding-top: 25%;
 }
 
-.description {
-  font-size: 16px;
+.description,
+.description-2 {
+  font-size: 1em;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5em;
   text-align: left;
   color: #344563;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.connect {
-  font-size: 16px;
+.connect,
+.connect-2 {
+  font-size: 1em;
   font-style: normal;
   font-weight: bolder;
-  line-height: 24px;
+  line-height: 1.5px;
   text-align: left;
   color: #7f8cff;
   margin-top: 5%;
@@ -72,14 +80,16 @@ body {
   margin-right: 5%;
 }
 
-.icons-list {
+.icons-list,
+.icons-list-2 {
   color: #505f79;
   list-style-type: none;
   margin-top: 5%;
   margin-left: -5%;
 }
 
-.icons-list li {
+.icons-list li,
+.icons-list-2 li {
   display: inline-block;
   margin-right: 5%;
 }
@@ -89,9 +99,9 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 5%;
-  margin-top: 25%;
-  margin-bottom: 25%;
+  grid-gap: 88px;
+  margin-top: 114px;
+  margin-bottom: 114px;
 }
 
 .middle {
@@ -110,8 +120,8 @@ body {
 .middle-h1 {
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2em;
+  line-height: 2.75em;
   color: #172b4d;
   margin-left: 8%;
 }
@@ -119,16 +129,17 @@ body {
 .middle-paragraph {
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 1em;
   line-height: 160%;
   color: #344563;
   margin-left: 8%;
+  margin-right: 8%;
 }
 
 .button-see-project {
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.05em;
   line-height: 141%;
   display: flex;
   align-items: center;
@@ -138,8 +149,8 @@ body {
   color: #396df2;
   border-color: #396df2;
   border-radius: 0.5rem;
-  width: 125px;
-  height: 40px;
+  width: 7.8em;
+  height: 2.5em;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 8%;
@@ -155,22 +166,22 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 0.25em 0.75em;
   position: static;
-  height: 24px;
+  height: 1.5em;
   margin-right: 1rem;
 }
 
 .html-button {
-  width: 53px;
+  width: 3.3125em;
 }
 
 .css-button {
-  width: 45px;
+  width: 2.81em;
 }
 
 .js-button {
-  width: 89px;
+  width: 5.5625em;
 }
 
 .middle-button {
@@ -192,8 +203,8 @@ body {
   margin-right: 8%;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.8125em;
+  line-height: 1em;
   color: #344563;
   list-style: none;
 }
@@ -201,21 +212,22 @@ body {
 .canopy-2 {
   margin-right: 8%;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.8125em;
+  line-height: 1em;
   color: #7a869a;
 }
 
 .personal-information-2 {
   background-color: white;
-  margin-top: 125%;
   border-top-right-radius: 10%;
+  padding-bottom: 5.72916vh;
 }
 
-.button-resume {
+.button-resume,
+.button-resume-2 {
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.0625em;
   line-height: 141%;
   display: flex;
   align-items: center;
@@ -225,8 +237,8 @@ body {
   color: #396df2;
   border-color: #396df2;
   border-radius: 0.5rem;
-  width: 155px;
-  height: 40px;
+  width: 9.6875em;
+  height: 2.5em;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
@@ -242,8 +254,8 @@ body {
 }
 
 .langguages > h1 {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25em;
+  line-height: 1.5em;
   color: #000;
   margin-right: 7rem;
 }
@@ -253,8 +265,8 @@ body {
 }
 
 .langguages-2 > h1 {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25em;
+  line-height: 1.5em;
   color: #000;
   margin-right: 11.65rem;
 }
@@ -292,7 +304,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 1rem;
-  padding: 0 24px;
+  padding: 0 1.5em;
   border-top-left-radius: 4rem;
 }
 
@@ -316,6 +328,7 @@ body {
 .grid-container-3 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-bottom: 45px;
   padding-right: 20px;
 }
@@ -327,7 +340,7 @@ body {
 
 .grid-container-3 form label input {
   width: 100%;
-  height: 48px;
+  height: 3em;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
@@ -336,7 +349,7 @@ body {
 
 .grid-container-3 form label textarea {
   width: 100%;
-  height: 170px;
+  height: 10.6em;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
@@ -345,8 +358,8 @@ body {
 }
 
 .grid-container-3 form label button {
-  width: 140px;
-  height: 48px;
+  width: 8.75em;
+  height: 3em;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
@@ -355,4 +368,256 @@ body {
 
 footer {
   background-color: white;
+}/* Desktop Version */
+
+@media screen and (min-width: 850px) {
+  .hamburger-icon {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+
+  .personal-information {
+    border-bottom-left-radius: 5rem;
+    padding-bottom: 8vh;
+    margin-top: -8vh;
+  }
+
+  .background-header {
+    border: 1px solid transparent;
+    margin-top: -9px;
+    margin-left: -10px;
+    margin-right: -8px;
+  }
+
+  .logo-placeholder {
+    margin-left: 155px;
+  }
+
+  .header-list {
+    list-style: none;
+    color: #344563;
+    display: flex;
+    margin-right: 155px;
+  }
+
+  .header-list li {
+    margin-right: 32px;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 133%;
+  }
+
+  .name,
+  .description,
+  .connect {
+    margin-left: 18.697916vw;
+  }
+
+  .icons-section-1 {
+    margin-left: 19.697916vw;
+  }
+
+  .description {
+    margin-right: 18.697916vw;
+  }
+
+  /* middle section */
+  .middle {
+    width: 80%;
+    max-height: 496px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .middle-images {
+    order: -1;
+    align-self: flex-start;
+    margin: 1.5rem;
+    width: 39.8243vw;
+    height: 71.68vh;
+  }
+
+  .middle-images2-4 {
+    margin: 3.84vh 0;
+    width: 39.8243vw;
+    height: 71.68vh;
+    order: 9;
+  }
+
+  .middle-h1,
+  .canopy-1,
+  .canopy-2,
+  .middle-paragraph,
+  .middle-button,
+  .button-see-project {
+    align-self: flex-start;
+    margin-left: 3.3675vw;
+  }
+
+  .middle-h1 {
+    font-size: 2.9282vw;
+    line-height: 8.32vh;
+    color: #172b4d;
+  }
+
+  .canopy {
+    margin-left: -2.562225475841874vw;
+    margin-top: 0;
+  }
+
+  .canopy-1,
+  .canopy-2 {
+    margin-right: 2vw;
+    font-size: 0.9516vw;
+    line-height: 2.56vh;
+  }
+
+  .middle-paragraph {
+    font-size: 1.1713vw;
+    margin-left: 3.367vw;
+    width: 26.3103953147877vw;
+  }
+
+  .middle-button {
+    margin-left: 0;
+  }
+
+  .html-button,
+  .css-button,
+  .js-button {
+    padding: 0.64vh 0.8784vw;
+    height: 1.5em;
+    margin-right: 1.1713vw;
+    font-size: 1.18784vw;
+  }
+
+  .html-button {
+    width: 3.88vw;
+  }
+
+  .css-button {
+    width: 3.3vw;
+  }
+
+  .js-button {
+    width: 6.5153vw;
+  }
+
+  .button-see-project {
+    margin-top: 3.2vh;
+  }
+
+  /* personal information and langguage section */
+  .personal-information-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.0001vw;
+  }
+
+  .test-o {
+    width: 90%;
+    height: 117.84vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .name-2 {
+    width: 32.7233vw;
+    height: 114px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 22.4vh;
+    align-self: flex-start;
+  }
+
+  .description-2 {
+    align-self: flex-start;
+    width: 32.7233vw;
+    height: auto;
+  }
+
+  .connect-2 {
+    width: 100%;
+    height: 3.84vh;
+    padding-top: 1vh;
+    padding-bottom: 0;
+  }
+
+  .icons-list-2 {
+    padding-left: 0;
+    margin-left: 5%;
+  }
+
+  .icons-list-2 li {
+    margin-right: 2%;
+  }
+
+  .langguages-section {
+    padding-left: 5.64583vw;
+    margin-top: 22.4vh;
+    margin-left: 2vw;
+    height: auto;
+  }
+
+  .langguages {
+    width: 42.6vw;
+  }
+
+  .langguages h1 {
+    color: #344563;
+  }
+
+  .langguages-border {
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .langguages i {
+    padding-left: 15.2vw;
+  }
+
+  .grid-container-2 {
+    margin: 5.12vh 3.5139vw 5.12vh 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .langguage-box {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 8.93vw;
+    height: 19.2vh;
+  }
+
+  .langguage-box > img {
+    margin: 0.5rem 2rem 0.5rem 0.5rem;
+  }
+
+  .langguage-box > h3 {
+    font-size: 1.098vw;
+    padding-left: 1.1713vw;
+  }
+
+  /* form section */
+  .grid-container-3 {
+    grid-gap: 1rem;
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+
+  .grid-container-3 form label input,
+  .grid-container-3 form label textarea {
+    border-radius: 1px;
+  }
+
+  .grid-container-3 form label button {
+    margin-left: 18vw;
+  }
 }
