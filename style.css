@@ -511,10 +511,16 @@ footer {
 
   .button-see-project {
     margin-top: 3.2vh;
+    transition-property: width, height;
+    transition-duration: 6s;
+    transition-delay: 2s;
   }
 
   .button-see-project:hover {
-    color: black;
+    transform: scale(1.2);
+    height: 5%;
+    width: 5%;
+    color: #6070ff;
   }
 
   /* personal information and langguage section */
