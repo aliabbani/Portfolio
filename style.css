@@ -513,6 +513,10 @@ footer {
     margin-top: 3.2vh;
   }
 
+  .button-see-project:hover {
+    color: black;
+  }
+
   /* personal information and langguage section */
   .personal-information-2 {
     display: flex;
