@@ -1,14 +1,7 @@
 body {
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-}
-
-.personal-information {
-  background-color: white;
-  background-image: url(images/Headerbg@2x.png);
-  background-attachment: fixed;
-  background-position: right;
-  padding-bottom: 8.001vh;
+  margin: 0;
 }
 
 .logo-placeholder {
@@ -18,16 +11,15 @@ body {
   line-height: 20px;
   text-align: left;
   color: #6070ff;
-  margin-left: 5%;
+  padding-left: 5%;
+  text-decoration:none ;
 }
 
 .hamburger-icon {
   text-align: right;
   color: #6070ff;
   float: right;
-  position: relative;
-  top: -30px;
-  right: 35px;
+  padding-right: 3vw;
 }
 
 .header {
@@ -35,11 +27,20 @@ body {
   height: 50px;
   background-color: #fff;
   padding-top: 10px;
-  margin-bottom: -10%;
 }
 
 .header-list {
   display: none;
+}
+
+.personal-information {
+  margin-top: -0.2vh;
+  background-color: white;
+  background-image: url(images/contact-form-shapes-mobile@2x.png);
+  background-size:auto;
+  background-repeat: no-repeat;
+  padding-bottom: 8.001vh;
+  border-bottom-left-radius: 5vh;
 }
 
 .name,
@@ -50,9 +51,10 @@ body {
   line-height: 52px;
   text-align: left;
   color: #172b4d;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 25%;
+  margin: 0;
 }
 
 .description,
@@ -63,8 +65,8 @@ body {
   line-height: 1.5em;
   text-align: left;
   color: #344563;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .connect,
@@ -75,9 +77,10 @@ body {
   line-height: 1.5px;
   text-align: left;
   color: #7f8cff;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
 }
 
 .icons-list,
@@ -85,13 +88,18 @@ body {
   color: #505f79;
   list-style-type: none;
   margin-top: 5%;
-  margin-left: -5%;
+  padding-left: 5%;
 }
 
 .icons-list li,
 .icons-list-2 li {
   display: inline-block;
   margin-right: 5%;
+}
+
+.icons-list li a{
+  color: #505f79;
+
 }
 
 /** here we start the second milestone **/
@@ -117,7 +125,7 @@ body {
   margin-top: 5%;
 }
 
-.middle-h1 {
+.middle-h2 {
   font-style: normal;
   font-weight: bolder;
   font-size: 2em;
@@ -253,7 +261,7 @@ body {
   align-items: center;
 }
 
-.langguages > h1 {
+.langguages > h2 {
   font-size: 1.25em;
   line-height: 1.5em;
   color: #000;
@@ -264,7 +272,7 @@ body {
   color: #acb7c3;
 }
 
-.langguages-2 > h1 {
+.langguages-2 > h2 {
   font-size: 1.25em;
   line-height: 1.5em;
   color: #000;
@@ -375,6 +383,10 @@ footer {
     display: none;
   }
 
+  .background-header {
+    display: flex;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -382,21 +394,8 @@ footer {
     width: 100%;
   }
 
-  .personal-information {
-    border-bottom-left-radius: 5rem;
-    padding-bottom: 8vh;
-    margin-top: -8vh;
-  }
-
-  .background-header {
-    border: 1px solid transparent;
-    margin-top: -9px;
-    margin-left: -10px;
-    margin-right: -8px;
-  }
-
   .logo-placeholder {
-    margin-left: 155px;
+    padding-left: 155px;
   }
 
   .header-list {
@@ -413,18 +412,26 @@ footer {
     line-height: 133%;
   }
 
-  .name,
-  .description,
-  .connect {
-    margin-left: 18.697916vw;
+  .header-list li a {
+    text-decoration: none;
+    color: #344563;
   }
 
-  .icons-section-1 {
-    margin-left: 19.697916vw;
+  .personal-information {
+    background-image: url(images/Headerbg@2x.png);
+    margin: 0;
+    border-bottom-left-radius: 5rem;
+  }
+
+  .name,
+  .description,
+  .connect,
+  .icons-list {
+    padding-left: 18vw;
   }
 
   .description {
-    margin-right: 18.697916vw;
+    padding-right: 18.697916vw;
   }
 
   /* middle section */
@@ -450,7 +457,7 @@ footer {
     order: 9;
   }
 
-  .middle-h1,
+  .middle-h2,
   .canopy-1,
   .canopy-2,
   .middle-paragraph,
@@ -460,7 +467,7 @@ footer {
     margin-left: 3.3675vw;
   }
 
-  .middle-h1 {
+  .middle-h2 {
     font-size: 2.9282vw;
     line-height: 8.32vh;
     color: #172b4d;
@@ -580,7 +587,7 @@ footer {
     width: 42.6vw;
   }
 
-  .langguages h1 {
+  .langguages h2 {
     color: #344563;
   }
 
