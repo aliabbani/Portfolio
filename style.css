@@ -10,14 +10,14 @@ body {
   font-weight: bolder;
   line-height: 20px;
   text-align: left;
-  color: #6070ff;
+  color: #5665e8;
   padding-left: 5%;
-  text-decoration:none ;
+  text-decoration: none;
 }
 
 .hamburger-icon {
   text-align: right;
-  color: #6070ff;
+  color: #5665e8;
   float: right;
   padding-right: 3vw;
 }
@@ -37,7 +37,7 @@ body {
   margin-top: -0.2vh;
   background-color: white;
   background-image: url(images/contact-form-shapes-mobile@2x.png);
-  background-size:auto;
+  background-size: auto;
   background-repeat: no-repeat;
   padding-bottom: 8.001vh;
   border-bottom-left-radius: 5vh;
@@ -76,7 +76,7 @@ body {
   font-weight: bolder;
   line-height: 1.5px;
   text-align: left;
-  color: #7f8cff;
+  color: #656fc9;
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -97,9 +97,8 @@ body {
   margin-right: 5%;
 }
 
-.icons-list li a{
+.icons-list li a {
   color: #505f79;
-
 }
 
 /** here we start the second milestone **/
@@ -167,8 +166,8 @@ body {
 .html-button,
 .css-button,
 .js-button {
-  color: #6070ff;
-  background: #ebebff;
+  color: #5665e8;
+  background: #fff;
   border-radius: 0.5rem;
   border: none;
   display: flex;
@@ -222,7 +221,7 @@ body {
   font-weight: 600;
   font-size: 0.8125em;
   line-height: 1em;
-  color: #7a869a;
+  color: #5b6473;
 }
 
 .personal-information-2 {
@@ -307,7 +306,7 @@ body {
 }
 
 .grid-container-3 {
-  background-color: #6070ff;
+  background-color: #5665e8;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -330,7 +329,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #fff;
 }
 
 .grid-container-3 form {
@@ -371,7 +370,7 @@ body {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background: #fff;
-  color: #6070ff;
+  color: #5665e8;
 }
 
 footer {
@@ -527,7 +526,7 @@ footer {
     transform: scale(1.2);
     height: 5%;
     width: 5%;
-    color: #6070ff;
+    color: #5665e8;
   }
 
   /* personal information and langguage section */
