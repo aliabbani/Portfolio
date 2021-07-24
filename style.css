@@ -85,7 +85,7 @@ body {
 
 .icons-list,
 .icons-list-2 {
-  color: #505f79;
+  color: #172b4d;
   list-style-type: none;
   margin-top: 5%;
   padding-left: 5%;
@@ -97,8 +97,9 @@ body {
   margin-right: 5%;
 }
 
-.icons-list li a {
-  color: #505f79;
+.icons-list li a,
+.icons-list-2 li a {
+  color: #172b4d;
 }
 
 /** here we start the second milestone **/
@@ -384,6 +385,7 @@ footer {
 
   .background-header {
     display: flex;
+    height: auto;
   }
 
   .header {
@@ -439,6 +441,7 @@ footer {
     max-height: 496px;
     margin: 0 auto;
     flex-wrap: wrap;
+    height: auto;
   }
 
   .middle-images {
@@ -523,10 +526,8 @@ footer {
   }
 
   .button-see-project:hover {
-    transform: scale(1.2);
-    height: 5%;
-    width: 5%;
-    color: #5665e8;
+    color: #fff;
+    background-color: #5665e8;
   }
 
   /* personal information and langguage section */
@@ -547,9 +548,7 @@ footer {
   .name-2 {
     width: 32.7233vw;
     height: 114px;
-    padding-top: 0;
-    padding-left: 0;
-    margin-top: 22.4vh;
+    padding-top: 22.4vh;
     align-self: flex-start;
   }
 
