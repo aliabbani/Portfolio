@@ -384,7 +384,7 @@ footer {
 }/* Desktop Version */
 
 @media screen and (min-width: 850px) {
-  .hamburger-icon {
+  .header a i {
     display: none;
   }
 
