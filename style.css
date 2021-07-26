@@ -414,11 +414,13 @@ body {
 footer {
   background-color: white;
 }
+
 /* Desktop Version */
 @media screen and (min-width: 850px) {
   .mobile-menu {
     display: none;
   }
+
   .langguages i {
     padding-left: 15.2vw;
   }
