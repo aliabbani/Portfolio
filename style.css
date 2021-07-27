@@ -211,6 +211,116 @@ body {
   padding-left: 5vw;
 }
 
+/* here is the popup window */
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3vw;
+  gap: 2vh;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 92vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.popup-header h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.popup-canopy {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+}
+
+.popup-canopy span {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.popup-canopy li {
+  padding-right: 8vw;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.popup-image {
+  display: flex;
+}
+
+.popup-image img {
+  width: 100%;
+  height: auto;
+}
+
+.popup-description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.popup-technology {
+  display: flex;
+}
+
+.popup-technology span {
+  list-style: none;
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 1vh 2vw;
+  margin-right: 1vw;
+  border-radius: 0.5rem;
+}
+
+.popup-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.popup-button button {
+  background-color: white;
+  padding: 2vh 9vw;
+  border-radius: 1rem;
+  border-color: #6070ff;
+  color: #6070ff;
+}
+
+.langguages > i {
+  color: #acb7c3;
+}
+
+.popup-button button i {
+  padding-left: 2vw;
+}
+
 .html-button,
 .css-button,
 .js-button {
@@ -303,10 +413,6 @@ body {
   line-height: 1.5em;
   color: #000;
   margin-right: 7rem;
-}
-
-.langguages > i {
-  color: #acb7c3;
 }
 
 .langguages-2 > h2 {
@@ -417,6 +523,56 @@ footer {
 
 /* Desktop Version */
 @media screen and (min-width: 850px) {
+  /* here is the popup-window section */
+  .popup-container {
+    padding: 0 3vw;
+  }
+
+  li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .popup-canopy li {
+    padding-right: 4vw;
+  }
+
+  .popup-image {
+    display: block;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+  }
+
+  .popup-image img {
+    width: 70%;
+    align-self: center;
+  }
+
+  .popup-description {
+    width: 60vw;
+  }
+
+  .desktop-version {
+    display: flex;
+  }
+
+  .destop-tech {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-left: 3vw;
+  }
+
+  .popup-button {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .popup-button button {
+    padding: 1.5vh 3vw;
+  }
+
   .mobile-menu {
     display: none;
   }
