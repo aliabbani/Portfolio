@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-
+/* here is the mobile menu for js */
 .mobile-menu {
   display: none;
   flex-direction: column;
@@ -538,7 +538,7 @@ footer {
   }
 
   .popup-image {
-    display: block;
+    display: flex;
     justify-content: center;
     width: 80%;
     height: 100%;
