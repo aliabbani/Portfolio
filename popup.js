@@ -3,7 +3,7 @@ const projects = [
     id: 'tonic-id',
     title: 'Tonic',
     details: ['Canopy', 'Back End dev', 2015],
-    image: './img/snapshot.png',
+    image: 'images/Snapshoot-Portfolio.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologyList: ['Html', 'Css', 'Javascript'],
@@ -12,9 +12,9 @@ const projects = [
   },
   {
     id: 'facebook-id',
-    title: 'Facebook',
+    title: 'Multi-Post',
     details: ['Canopy', 'Back End dev', 2015],
-    image: './img/sectionthree.png',
+    image: 'images/Snapshoot-Portfolio2.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologyList: ['Html', 'Css', 'Javascript'],
@@ -23,9 +23,9 @@ const projects = [
   },
   {
     id: 'uber-id',
-    title: 'Uber',
+    title: 'Tonic',
     details: ['Canopy', 'Back End dev', 2015],
-    image: './img//sectiontwo.png',
+    image: 'images/Snapshoot-Portfolio3.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologyList: ['Html', 'Css', 'Javascript'],
@@ -36,7 +36,7 @@ const projects = [
     id: 'twitter-id',
     title: 'Twitter',
     details: ['Canopy', 'Back End dev', 2015],
-    image: './img/sectionfour.png',
+    image: 'images/Snapshoot-Portfolio4.png',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologyList: ['Html', 'Css', 'Javascript'],
