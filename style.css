@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-/* here is the mobile menu for js */
+
 .mobile-menu {
   display: none;
   flex-direction: column;
@@ -313,6 +313,10 @@ body {
   color: #6070ff;
 }
 
+.langguages > i {
+  color: #acb7c3;
+}
+
 .popup-button button i {
   padding-left: 2vw;
 }
@@ -409,10 +413,6 @@ body {
   line-height: 1.5em;
   color: #000;
   margin-right: 7rem;
-}
-
-.langguages > i {
-  color: #acb7c3;
 }
 
 .langguages-2 > h2 {
@@ -538,7 +538,7 @@ footer {
   }
 
   .popup-image {
-    display: flex;
+    display: block;
     justify-content: center;
     width: 80%;
     height: 100%;
@@ -572,7 +572,7 @@ footer {
   .popup-button button {
     padding: 1.5vh 3vw;
   }
-  
+
   .mobile-menu {
     display: none;
   }
