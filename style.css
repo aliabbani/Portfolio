@@ -517,6 +517,11 @@ body {
   color: #5665e8;
 }
 
+/* form section */
+#small {
+  color: yellow;
+}
+
 footer {
   background-color: white;
 }

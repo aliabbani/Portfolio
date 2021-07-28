@@ -205,7 +205,7 @@
       <div class="grid-container-3">
         <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <form action="https://formspree.io/f/mpzkjprv" method="POST">
+        <form action="https://formspree.io/f/mpzkjprv" method="POST" id="form-contact">
           <label for="username">
             <input type="text" name="username" id="username" maxlength="30" placeholder="Username" required>
           </label>
@@ -215,6 +215,7 @@
           <label for="comment">
             <textarea name="comment" id="comment" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
           </label>
+          <small id="small"></small>
           <label for="submit">
             <button type="submit" id="submit">Get it touch</button>
           </label>  
@@ -223,5 +224,6 @@
     </footer>
     <script src="index.js"></script>
     <script src="popup.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
