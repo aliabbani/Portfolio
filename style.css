@@ -517,6 +517,11 @@ body {
   color: #5665e8;
 }
 
+/* form section */
+#small {
+  color: yellow;
+}
+
 footer {
   background-color: white;
 }
@@ -830,6 +835,8 @@ footer {
     padding-left: 25vw;
     padding-right: 25vw;
   }
+
+  
 
   .grid-container-3 form label input,
   .grid-container-3 form label textarea {
