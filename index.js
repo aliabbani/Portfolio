@@ -16,4 +16,4 @@ menu.addEventListener('click', showMenu);
 closeItem.addEventListener('click', hideMenu);
 portfolioMenu.addEventListener('click', hideMenu());
 aboutMenu.addEventListener('click', hideMenu);
-contactMenu.addEventListener('click', hideMenu);
+contactMenu.addEventListener('click', hideMenu());
