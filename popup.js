@@ -2,10 +2,10 @@ const projects = [
   {
     id: 'tonic-id',
     title: 'Tonic',
-    details: ['Canopy', 'Back End dev', 2015],
-    image: 'images/Snapshoot-Portfolio.png',
+    details: ['Canopy', 'Back End dev', 2021],
+    image: 'images/awesomebook.png',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      'In this project, we build a basic website that allows users to add/remove books from a list. we achieved that by using JavaScript objects and arrays. we will also do dynamically modify the DOM and add basic events.',
     technologyList: ['Html', 'Css', 'Javascript'],
     firstButton: 'See Live',
     secondButton: 'See Source',
@@ -89,7 +89,7 @@ seeProjectButtons.forEach((button) => {
       button.addEventListener('click', () => {
         const popUpSection = document.createElement('section');
         popUpSection.innerHTML = `
-           <article class="popup-container">
+            <article class="popup-container">
             <div class="popup-header">
             <h2 class="popup-h2">${project.title}</h2>
             <span class="material-icons close-popup"> close </span>
@@ -115,14 +115,19 @@ seeProjectButtons.forEach((button) => {
                   <span >${project.technologyList[2]}</span>
                 </div>
                 <div class="popup-button">
-                  <button >${project.firstButton}<i class="fa fa-external-link"></i></button>
+                  <button >${project.firstButton}<i class="fa fa-external-link"><a href="https://musing-minsky-1c53a0.netlify.app/#"></a></i></button>
                   <button >${project.secondButton}<i class="fa fa-github"></i></button>
                 </div>
               <div>
             </div>
             </article>
       `;
-
+        // const a1 = document.createElement('a');
+        // const link1 = document.createTextNode('this is link');
+        // a1.appendChild(link1);
+        // a1.title = 'This is Link';
+        // a1.href = 'https://musing-minsky-1c53a0.netlify.app/#';
+        // projects[0].firstButton.innerHTML(a1);
         section.appendChild(popUpSection);
         const closeButton = document.querySelector('.close-popup');
         closeButton.addEventListener('click', () => {

@@ -669,7 +669,7 @@ footer {
   .middle-images {
     align-self: flex-start;
     width: 39.8243vw;
-    height: 71.68vh;
+    height: 65.68vh;
   }
 
   .middle-images-div-2 {
@@ -680,7 +680,7 @@ footer {
 
   .middle-images2-4 {
     width: 39.8243vw;
-    height: 71.68vh;
+    height: 65vh;
     order: 9;
     align-self: flex-end;
   }
