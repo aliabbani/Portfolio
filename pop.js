@@ -14,10 +14,10 @@ const pops = [
     id: 'facebook-id',
     title: 'Multi-Post',
     details: ['Canopy', 'Back End dev', 2015],
-    image: 'images/Snapshoot-Portfolio2.png',
+    image: 'images/railsbudgetapp.PNG',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    technologyList: ['Html', 'Css', 'Javascript'],
+        'The project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    technologyList: ['Ruby', 'Rails', 'Bootstrap'],
     firstButton: 'See Live',
     secondButton: 'See Source',
   },
